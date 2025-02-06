@@ -1,0 +1,30 @@
+stages:
+  - build
+  - deploy
+
+variables:
+  NODE_ENV: development
+
+build:
+  stage: build
+  image: node:14  
+  script:
+    - npm install
+
+deploy_staging:
+  stage: deploy
+  only:
+    - staging  
+  script:
+    - echo "$SSH_PRIVATE_KEY" > qadam-staging.pem 
+    - chmod 600 qadam-staging.pem 
+    - ssh -o StrictHostKeyChecking=no -i qadam-staging.pem bitnami@3.109.82.236 'cd projects/qadam-vendor-web && git pull && npm install && npm run build && pm2 restart qadam-vendor-web'
+
+deploy_production:
+  stage: deploy
+  only:
+    - main  
+  script:
+    - echo "$SSH_PRIVATE_KEY" > qadam-production.pem 
+    - chmod 600 qadam-production.pem 
+    - ssh -o StrictHostKeyChecking=no -i qadam-production.pem bitnami@3.109.82.236 'cd projects/production/qadam-vendor-web && git pull && npm install && npm run build && pm2 restart qadam-vendor-web-prod'

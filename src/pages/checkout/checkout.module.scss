@@ -1,0 +1,70 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 72px;
+  padding-bottom: 72px;
+  background-color: var(--primary-100);
+}
+
+.organization-logo {
+  width: auto;
+  height: 30px;
+}
+
+.heading {
+  //margin-top: 50px;
+  margin-bottom: 0;
+  color: var(--primary-blue-500);
+  font-size: var(--font-lg);
+  font-weight: var(--font-weight-sm);
+  padding: 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  padding-top: 30px;
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.label {
+  margin-bottom: -10px;
+  z-index: 1;
+  background-color: var(--primary-100);
+  margin-left: 10px;
+  width: fit-content;
+  padding: 0px 2px;
+  color: var(--primary-blue-500);
+}
+
+.input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  background-color: var(--primary-100);
+  border-color: var(--primary-blue-500);
+}
+
+.button {
+  margin-top: 24px;
+  border-radius: 8px;
+  background-color: var(--primary-blue-500);
+  display: flex;
+  padding: 12px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}

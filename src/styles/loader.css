@@ -1,0 +1,41 @@
+
+
+  .loader-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999; /* Ensure it is on top of everything */
+    pointer-events: none; /* Disable pointer events */
+  }
+  
+  .loader {
+      width: 50px;
+      aspect-ratio: 1;
+      display: grid;
+      border: 4px solid #0000;
+      border-radius: 50%;
+      border-right-color: #fe5000;
+      animation: l15 1s infinite linear;
+    }
+    .loader::before,
+    .loader::after {    
+      content: "";
+      grid-area: 1/1;
+      margin: 2px;
+      border: inherit;
+      border-radius: 50%;
+      animation: l15 2s infinite;
+    }
+    .loader::after {
+      margin: 8px;
+      animation-duration: 3s;
+    }
+    @keyframes l15{ 
+      100%{transform: rotate(1turn)}
+    }

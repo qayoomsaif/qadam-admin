@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    width: -webkit-fill-available;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 1px 19px 0px rgba(0, 13, 56, 0.06);
+    margin-top: 15px;
+    .details{
+        display: flex;
+        flex-direction: column;
+        color: var(--primary-blue-600);
+        font-size: var(--font-sm);
+        font-weight: var(--font-weight-sm);
+        line-height: 19px;
+        .seller{
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 21px;
+            color: var(--primary-blue-300);
+        }
+    }
+    .price{
+        color: var(--accent-orange-500);
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+}

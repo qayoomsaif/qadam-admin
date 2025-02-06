@@ -1,0 +1,47 @@
+.sidebar {
+  width: auto;
+  height: 100%;
+  background-color: var(--primary-grey-500);
+  position: fixed;
+  top: 0;
+  right: -250px;
+  transition: right 0.3s ease-in-out;
+  z-index: 2;
+
+  &.open {
+    right: 0;
+  }
+
+
+  .cross-icon {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    color: #FFF;
+  }
+
+  .heading {
+    color: #FFF;
+    font-size: var(--font-sm);
+    letter-spacing: 1px;
+  }
+}
+
+.top-bar{
+  background-color: var(--primary-blue-500);
+  display: flex;
+  flex-direction: row;
+  padding: 16px 16px;
+  justify-content: space-between;
+    align-items: center;
+}
+
+.notification-bar{
+  display: flex;
+  padding: 0px 15px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 16px;
+  gap: 0;
+}

@@ -1,0 +1,41 @@
+/* HeroCarousel.module.scss */
+
+.carouselWrapper {
+    position: relative;
+     margin-top: 50px;
+    // display: flex;
+    // flex-direction:row;
+     justify-items: center;
+     align-items: center;
+     .slide{
+        display: flex;
+   }
+}
+   
+   /* Styles for arrows */
+   .control-arrow {
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+     border-color: var(--neutral-grey-500); 
+     background-color: var(--primary-grey-500);
+     border-radius: 50%;
+     border-width: 8px;
+     border-style: solid;
+     width: 86px;
+     height: 86px; 
+     color: var(--primary-blur-500);
+     cursor: pointer;
+     z-index: 1;
+   }
+   
+   .control-prev {
+     left: 10px;
+   }
+   
+  
+   .control-next {
+     right: 10px;
+   }
+ 
+   

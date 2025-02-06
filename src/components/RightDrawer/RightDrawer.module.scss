@@ -1,0 +1,28 @@
+.top-bar{
+    display: flex;
+    flex-direction: row;
+    padding: 16px 16px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    .cross-icon {
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+        color:var(--primary-blue-500);
+      }
+    
+      .heading {
+        color:var(--primary-blue-500);
+        font-size: var(--font-md);
+      }
+    }
+    .button{
+        color: var(--accent-orange-500);
+        border: none;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 21px;
+        text-decoration-line: underline;
+    }

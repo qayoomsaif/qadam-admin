@@ -1,0 +1,20 @@
+.container{
+    width: auto;
+    padding: 0px 8px;
+    border-bottom: 1px solid var(--neutral-grey-500);
+
+    .content{
+        color: var(--primary-blue-600);
+        font-size: var(--font-sm);
+        font-weight: var(--font-weight-sm);
+        line-height: 19px;
+    }
+
+    .time{
+        color: var(--neutral-grey-500);
+        font-size: var(--font-sm);
+        font-weight: 400;
+        line-height: 16px;
+    }
+}
+

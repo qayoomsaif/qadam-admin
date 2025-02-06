@@ -1,0 +1,244 @@
+{
+  "_id": "6595a935179e526f0bb25ea5",
+  "image_url": [
+    "https://qadam-images.s3.us-east-1.amazonaws.com/usb-c%208_1704306994582.png",
+    "https://qadam-images.s3.us-east-1.amazonaws.com/usb-c%207_1704306994608.png",
+    "https://qadam-images.s3.us-east-1.amazonaws.com/usb-c%206_1704306994612.png",
+    "https://qadam-images.s3.us-east-1.amazonaws.com/usb-c%205_1704306994616.png",
+    "https://qadam-images.s3.us-east-1.amazonaws.com/usb-c%204_1704306994624.png",
+    "https://qadam-images.s3.us-east-1.amazonaws.com/usb-c%203_1704306994628.png",
+    "https://qadam-images.s3.us-east-1.amazonaws.com/usb-c%202_1704306994631.png"
+  ],
+  "productCode": "4074b25ea4",
+  "name": "Baseus Xiaobai Series 100W (20V / 5A) Fast Charging Cable Type C To Type C",
+  "description": "Product details of Baseus Xiaobai Series 100W (20V / 5A) Fast Charging Cable Type C To Type C 1.5m\nBrand Name: BASEUS\nConnector B: TYPE-C\nMaximum Current: 5A\nOrigin: CN(Origin)\nSurface Material: Nylon\nConnector A: TYPE-C\nFeatures: Alloy Connector\nHas Retail Package: Yes\nItem Name: Baseus 100W USB C to USB C Cable\nMaterial: TPE+Aluminum\nLength: 1.5M (4.92ft)\nColor: White, Black\n100W Output: 50V 2A (100W Max)\nUSB Standard: USB 2.0\nData transmission: 480Mbps\nBrand Name: BASEUS\nConnector B: TYPE-C\nMaximum Current: 5A\nOrigin: CN(Origin)\nSurface Material: Nylon\nConnector A: TYPE-C\nFeatures: Alloy Connector\nHas Retail Package: Yes\nItem Name: Baseus 100W USB C to USB C Cable\nMaterial: TPE+Aluminum\nLength: 1.5M (4.92ft)\nColor: White, Black\n100W Output: 50V 2A (100W Max)\nUSB Standard: USB 2.0\nData transmission: 480Mbps",
+  "category": {
+    "_id": "653d0a8bb21cdd2e23bf13fc",
+    "name": "Electronics and Accessories",
+    "image_url": "https://url.com/electronics_accessories_image"
+  },
+  "subCategory": {
+    "_id": "653d0e66b21cdd2e23bf143a",
+    "name": "Smartphones & Accessories",
+    "image_url": "https://url.com/smartphones_accessories_image"
+  },
+  "createdAt": "2024-01-03T18:36:37.831Z",
+  "updatedAt": "2024-01-03T18:36:37.831Z",
+  "productVariants": {
+    "uniqueVariants": {
+      "size": [
+        "1m",
+        "2m"
+      ],
+      "color": [
+        "white",
+        "black"
+      ],
+      "material": []
+    },
+    "variants": [
+      {
+        "_id": "6595a945179e526f0bb25eaa",
+        "size": "1m",
+        "color": "white",
+        "material": null,
+        "productId": "6595a935179e526f0bb25ea5",
+        "createdAt": "2024-01-03T18:36:53.690Z",
+        "updatedAt": "2024-01-03T18:36:53.690Z"
+      },
+      {
+        "_id": "6595a945179e526f0bb25eab",
+        "size": "2m",
+        "color": "black",
+        "material": null,
+        "productId": "6595a935179e526f0bb25ea5",
+        "createdAt": "2024-01-03T18:36:53.690Z",
+        "updatedAt": "2024-01-03T18:36:53.690Z"
+      },
+      {
+        "_id": "6595a945179e526f0bb25eac",
+        "size": "2m",
+        "color": "white",
+        "material": null,
+        "productId": "6595a935179e526f0bb25ea5",
+        "createdAt": "2024-01-03T18:36:53.690Z",
+        "updatedAt": "2024-01-03T18:36:53.690Z"
+      },
+      {
+        "_id": "6595a945179e526f0bb25ea9",
+        "size": "1m",
+        "color": "black",
+        "material": null,
+        "productId": "6595a935179e526f0bb25ea5",
+        "createdAt": "2024-01-03T18:36:53.689Z",
+        "updatedAt": "2024-01-03T18:36:53.689Z"
+      }
+    ]
+  },
+  "productOffers": {
+    "6595a945179e526f0bb25eaa": [
+      {
+        "_id": "6595ab7bf56a4f9ef278648e",
+        "quantity": {
+          "verified": 20,
+          "reserved": 0,
+          "sold": 0
+        },
+        "productId": "6595a935179e526f0bb25ea5",
+        "productVariantId": "6595a945179e526f0bb25eaa",
+        "vendorId": "71db967c-0fec-41d9-a764-0462c0dd292a",
+        "price": 1500,
+        "status": "active",
+        "createdAt": "2024-01-03T18:46:19.692Z",
+        "updatedAt": "2024-01-03T18:46:19.692Z",
+        "vendor": {
+          "_id": "65550bd5ed58b0fb2b9f763f",
+          "email_verification": {
+            "token": "0d7f9cbb32d3d498c8ce7c5f7f2f3080c96818a8c5dea83a97e6374caac488226b9ed46988fa061c663b33f4d50cb125b26d59c4ac6185e514e964be086329c0818c942774994c53c20143a75c07fa9e",
+            "expires_at": 1700233233851,
+            "otp": "ZcxRIj"
+          },
+          "reset_password": {
+            "token": null,
+            "expires_at": null,
+            "otp": null
+          },
+          "email": "muhammaduzair127@gmail.com",
+          "name": "Muhammad Uzair",
+          "user_id": "71db967c-0fec-41d9-a764-0462c0dd292a",
+          "createdAt": "2023-11-15T18:20:05.253Z",
+          "updatedAt": "2023-11-17T13:00:33.868Z"
+        },
+        "totalScore": 0.24707496028253423
+      }
+    ],
+    "6595a945179e526f0bb25eac": [
+      {
+        "_id": "6595abb7f56a4f9ef278649e",
+        "quantity": {
+          "verified": 20,
+          "reserved": 0,
+          "sold": 0
+        },
+        "productId": "6595a935179e526f0bb25ea5",
+        "productVariantId": "6595a945179e526f0bb25eac",
+        "vendorId": "71db967c-0fec-41d9-a764-0462c0dd292a",
+        "price": 2000,
+        "status": "active",
+        "createdAt": "2024-01-03T18:47:19.313Z",
+        "updatedAt": "2024-01-03T18:47:19.313Z",
+        "vendor": {
+          "_id": "65550bd5ed58b0fb2b9f763f",
+          "email_verification": {
+            "token": "0d7f9cbb32d3d498c8ce7c5f7f2f3080c96818a8c5dea83a97e6374caac488226b9ed46988fa061c663b33f4d50cb125b26d59c4ac6185e514e964be086329c0818c942774994c53c20143a75c07fa9e",
+            "expires_at": 1700233233851,
+            "otp": "ZcxRIj"
+          },
+          "reset_password": {
+            "token": null,
+            "expires_at": null,
+            "otp": null
+          },
+          "email": "muhammaduzair127@gmail.com",
+          "name": "Muhammad Uzair",
+          "user_id": "71db967c-0fec-41d9-a764-0462c0dd292a",
+          "createdAt": "2023-11-15T18:20:05.253Z",
+          "updatedAt": "2023-11-17T13:00:33.868Z"
+        },
+        "totalScore": 0.24707496028253423
+      }
+    ],
+    "6595a945179e526f0bb25ea9": [
+      {
+        "_id": "6595abc5f56a4f9ef27864a6",
+        "quantity": {
+          "verified": 20,
+          "reserved": 0,
+          "sold": 0
+        },
+        "productId": "6595a935179e526f0bb25ea5",
+        "productVariantId": "6595a945179e526f0bb25ea9",
+        "vendorId": "71db967c-0fec-41d9-a764-0462c0dd292a",
+        "price": 1500,
+        "status": "active",
+        "createdAt": "2024-01-03T18:47:33.696Z",
+        "updatedAt": "2024-01-03T18:47:33.696Z",
+        "vendor": {
+          "_id": "65550bd5ed58b0fb2b9f763f",
+          "email_verification": {
+            "token": "0d7f9cbb32d3d498c8ce7c5f7f2f3080c96818a8c5dea83a97e6374caac488226b9ed46988fa061c663b33f4d50cb125b26d59c4ac6185e514e964be086329c0818c942774994c53c20143a75c07fa9e",
+            "expires_at": 1700233233851,
+            "otp": "ZcxRIj"
+          },
+          "reset_password": {
+            "token": null,
+            "expires_at": null,
+            "otp": null
+          },
+          "email": "muhammaduzair127@gmail.com",
+          "name": "Muhammad Uzair",
+          "user_id": "71db967c-0fec-41d9-a764-0462c0dd292a",
+          "createdAt": "2023-11-15T18:20:05.253Z",
+          "updatedAt": "2023-11-17T13:00:33.868Z"
+        },
+        "totalScore": 0.24707496028253423
+      }
+    ],
+    "6595a945179e526f0bb25eab": [
+      {
+        "_id": "6595aba5f56a4f9ef2786496",
+        "quantity": {
+          "verified": 19,
+          "reserved": 1,
+          "sold": 0
+        },
+        "productId": "6595a935179e526f0bb25ea5",
+        "productVariantId": "6595a945179e526f0bb25eab",
+        "vendorId": "71db967c-0fec-41d9-a764-0462c0dd292a",
+        "price": 2000,
+        "status": "active",
+        "createdAt": "2024-01-03T18:47:01.469Z",
+        "updatedAt": "2024-01-30T06:36:00.549Z",
+        "vendor": {
+          "_id": "65550bd5ed58b0fb2b9f763f",
+          "email_verification": {
+            "token": "0d7f9cbb32d3d498c8ce7c5f7f2f3080c96818a8c5dea83a97e6374caac488226b9ed46988fa061c663b33f4d50cb125b26d59c4ac6185e514e964be086329c0818c942774994c53c20143a75c07fa9e",
+            "expires_at": 1700233233851,
+            "otp": "ZcxRIj"
+          },
+          "reset_password": {
+            "token": null,
+            "expires_at": null,
+            "otp": null
+          },
+          "email": "muhammaduzair127@gmail.com",
+          "name": "Muhammad Uzair",
+          "user_id": "71db967c-0fec-41d9-a764-0462c0dd292a",
+          "createdAt": "2023-11-15T18:20:05.253Z",
+          "updatedAt": "2023-11-17T13:00:33.868Z"
+        },
+        "totalScore": 0.24707496028253423
+      }
+    ]
+  }
+}
+
+{
+  "vendorId": "71db967c-0fec-41d9-a764-0462c0dd292a",
+  "vendorName": "Muhammad Uzair",
+  "orderDetails": [
+    {
+      "productId": "6595a935179e526f0bb25ea5",
+      "productVariantId": "6595a945179e526f0bb25eaa",
+      "productOfferId": "6595a945179e526f0bb25eaa",
+      "quantity": 1,
+      "perUnitProfit": 1100,
+      "productDetail": {
+        "name": "Baseus Xiaobai Series 100W (20V / 5A) Fast Charging Cable Type C To Type C",
+        "Image": "https://qadam-images.s3.us-east-1.amazonaws.com/usb-c%208_1704306994582.png",
+        "price": 1500
+      }
+    }
+  ],
+  "deliveryPrice": 200
+}

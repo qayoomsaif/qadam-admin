@@ -1,0 +1,45 @@
+/* HeroCarousel.module.scss */
+
+.carouselWrapper {
+   position: relative;
+    margin-top: 50px;
+    display: flex;
+    flex-direction:row;
+    justify-items: center;
+    align-items: center;
+  }
+
+  
+  .carouselImage {
+    display: block;
+    width: 100%; 
+    height: auto;
+  }
+  
+  /* Styles for arrows */
+  .control-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #D9D9D9; 
+    border-color: white;
+    border-radius: 50%;
+    border-width: 8px;
+    border-style: solid;
+    width: 86px;
+    height: 86px; 
+    color: var(--primary-blur-500);
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .control-prev {
+    left: 10px;
+  }
+  
+ 
+  .control-next {
+    right: 10px;
+  }
+
+  
